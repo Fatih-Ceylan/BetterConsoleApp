@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\feti\\source\\repos\\BetterConsoleApp\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\feti\\Documents\\GitHub\\BetterConsoleApp\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\feti\\source\\repos\\BetterConsoleApp\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\feti\\Documents\\GitHub\\BetterConsoleApp\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\feti\\source\\repos\\BetterConsoleApp\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\feti\\Documents\\GitHub\\BetterConsoleApp\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\feti\\source\\repos\\BetterConsoleApp\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "C:\\Users\\feti\\Documents\\GitHub\\BetterConsoleApp\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\feti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\feti\\source\\repos\\BetterConsoleApp\\ConsoleUI\\obj\\",
+        "outputPath": "C:\\Users\\feti\\Documents\\GitHub\\BetterConsoleApp\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
